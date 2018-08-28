@@ -119,6 +119,12 @@
     		<scope>test</scope>
 		</dependency>
     </dependencies>
+	<distributionManagement>
+  <snapshotRepository>
+    <id>Vprofile</id>
+    <url>http://localhost:8082/nexus-2.14.9-01/content/repositories/Vprofile</url>
+  </snapshotRepository>
+</distributionManagement>
     <build>
         <plugins>
             <plugin>
